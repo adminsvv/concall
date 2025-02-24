@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
-OPENAI_API_KEY = st.secrets["MONGO_URL"]
+MONGO_URL = st.secrets["MONGO_URL"]
 
 class OpenAIClient:
     def __init__(self, api_key):
